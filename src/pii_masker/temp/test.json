@@ -1,0 +1,37 @@
+[
+    {
+        "start": 1,
+        "end": 36,
+        "text": "Cristiano Ronaldo dos Santos Aveiro",
+        "label": "person",
+        "score": 0.9882981181144714
+    },
+    {
+        "start": 43,
+        "end": 58,
+        "text": "5 February 1985",
+        "label": "date",
+        "score": 0.9975653886795044
+    },
+    {
+        "start": 145,
+        "end": 161,
+        "text": "Saudi Pro\nLeague",
+        "label": "organization",
+        "score": 0.9756903648376465
+    },
+    {
+        "start": 167,
+        "end": 175,
+        "text": "Al Nassr",
+        "label": "organization",
+        "score": 0.9829453825950623
+    },
+    {
+        "start": 184,
+        "end": 206,
+        "text": "Portugal national team",
+        "label": "organization",
+        "score": 0.9764775633811951
+    }
+]

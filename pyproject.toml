@@ -1,0 +1,21 @@
+[project]
+name = "pii-masker"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ollama>=0.6.3",
+    "peft>=0.21.0",
+    "protobuf>=7.36.2",
+    "pydantic[email]>=2.13.5",
+    "pypdf2>=3.0.1",
+    "sentencepiece>=0.2.2",
+]
+
+[project.scripts]
+pii-masker = "pii_masker:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
